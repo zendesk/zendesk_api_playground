@@ -2,6 +2,8 @@
 
 This repository is the code for the [Zendesk API Tester](https://zendesk-api.herokuapp.com/) website.
 
+[![Build Status](https://travis-ci.org/zendesk/zendesk_api_playground.svg?branch=master)](https://travis-ci.org/zendesk/zendesk_api_playground)
+
 ## Running
 
 ```shell
