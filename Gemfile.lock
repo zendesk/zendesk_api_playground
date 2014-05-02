@@ -96,6 +96,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
+  bundler (~> 1.6.0)
   coderay
   coderay_bash
   compass

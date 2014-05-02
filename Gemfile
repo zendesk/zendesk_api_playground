@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-# gem "bundler", "~> 1.2.0"
-# ruby "1.9.3"
+gem "bundler", "~> 1.6.0"
+ruby "2.1.1"
 
 gem "rake"
 
