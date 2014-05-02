@@ -117,6 +117,7 @@ describe ZendeskAPI::Server::App do
 
   context "a POST to /search" do
     subject do
+      described_class.settings.documentation['users'] = { :body => 'hello' }
       post '/search', :query => query
       last_response.body
     end
