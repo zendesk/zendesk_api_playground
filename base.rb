@@ -15,13 +15,13 @@ require 'digest/md5'
 
 require 'mongoid'
 
-require 'zendesk_api/server/models/user_request'
-Mongoid.load!(File.join(File.dirname(__FILE__), '..', '..', '..', 'config', 'mongoid.yml'))
+require_relative 'models/user_request'
+Mongoid.load!(Bundler.root.join('config', 'mongoid.yml'))
 
 module ZendeskAPI
   module Server
-    require 'zendesk_api/server/helper'
-    require 'zendesk_api/server/html_renderer'
+    require_relative 'helper'
+    require_relative 'html_renderer'
 
     class App < Sinatra::Base
       enable :sessions
@@ -45,7 +45,7 @@ module ZendeskAPI
         end
 
         set :documentation, documentation
-        set :help, documentation["introduction"][:body]
+        set :help, documentation.empty?? '' : documentation["introduction"][:body]
 
         autocomplete = settings.documentation.inject([]) do |accum, (resource, content)|
           accum.push(resource)

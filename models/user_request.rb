@@ -1,4 +1,4 @@
-require 'zendesk_api/server/models/zlib_json'
+require_relative 'zlib_json'
 
 module ZendeskAPI::Server
   class UserRequest
