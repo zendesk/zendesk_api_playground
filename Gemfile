@@ -26,3 +26,8 @@ gem "mongoid"
 gem "database_cleaner"
 
 gem "newrelic_rpm"
+
+group :test do
+  gem "rspec"
+  gem "webmock"
+end
