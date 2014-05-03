@@ -22,7 +22,7 @@ gem "bootstrap-sass"
 gem "coderay"
 gem "coderay_bash"
 
-gem "redcarpet"
+gem "redcarpet", "~> 3.0.0"
 
 gem "mongoid"
 gem "database_cleaner"
