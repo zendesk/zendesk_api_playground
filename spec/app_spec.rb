@@ -21,7 +21,6 @@ describe ZendeskAPI::Server::App do
     context "with a stored object" do
       subject do
         ZendeskAPI::Server::UserRequest.create(
-          :username => "test",
           :method => :post,
           :url => "http://my.url.com",
           :json => '{"hello": "goodbye"}',

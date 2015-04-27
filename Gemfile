@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem "bundler", "~> 1.6.0"
-ruby "2.1.1"
+gem "bundler", "> 1.6.0"
+ruby "2.1.5"
 
 gem "rake"
 
@@ -22,14 +22,14 @@ gem "bootstrap-sass"
 gem "coderay"
 gem "coderay_bash"
 
-gem "redcarpet", "~> 3.0.0"
+gem "redcarpet", "~> 3.0"
 
-gem "mongoid"
+gem "mongoid", "~> 3.0"
 gem "database_cleaner"
 
 gem "newrelic_rpm"
 
 group :test do
-  gem "rspec"
+  gem "rspec", "~> 2.0"
   gem "webmock"
 end
