@@ -59,7 +59,7 @@ GEM
     multipart-post (2.0.0)
     newrelic_rpm (3.11.2.286)
     origin (1.1.0)
-    rack (1.6.0)
+    rack (1.6.4)
     rack-protection (1.5.3)
       rack
     rack-ssl-enforcer (0.2.8)
@@ -132,4 +132,4 @@ DEPENDENCIES
   zendesk_api
 
 BUNDLED WITH
-   1.10.2
+   1.10.6
