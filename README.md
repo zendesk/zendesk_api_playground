@@ -1,6 +1,6 @@
-# Zendesk API Playground
+# Zendesk API Playground - DEPRECATED
 
-This repository is the code for the [Zendesk API Tester](https://zendesk-api.herokuapp.com/) website.
+This repository was the code for the former Zendesk API Tester (https://zendesk-api.herokuapp.com/) website.
 
 [![Build Status](https://travis-ci.org/zendesk/zendesk_api_playground.svg?branch=master)](https://travis-ci.org/zendesk/zendesk_api_playground)
 [![Code Climate](https://codeclimate.com/github/zendesk/zendesk_api_playground.png)](https://codeclimate.com/github/zendesk/zendesk_api_playground)
